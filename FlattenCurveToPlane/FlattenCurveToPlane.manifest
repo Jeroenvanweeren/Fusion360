@@ -1,0 +1,17 @@
+{
+    "autodeskProduct": "Fusion360",
+    "autorun": true,
+    "autorunDescription": "Loads FlattenCurveToPlane when Fusion 360 starts.",
+    "type": "addin",
+    "name": "FlattenCurveToPlane",
+    "author": "Jeroen van Weeren",
+    "version": "1.0.0",
+    "description": {
+        "": "Selects a sketch line or spline and moves all of its points onto the sketch plane or a selected face or plane (flattens a 3D-sketch curve back to 2D)."
+    },
+    "editEnabled": true,
+    "iconFilename": "FlattenCurveToPlane.png",
+    "isNative": false,
+    "supportedOS": "windows|mac",
+    "swControlsDisabled": false
+}
