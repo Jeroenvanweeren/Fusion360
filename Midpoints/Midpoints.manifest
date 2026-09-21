@@ -1,0 +1,17 @@
+{
+    "autodeskProduct": "Fusion360",
+    "autorun": true,
+    "autorunDescription": "Loads Midpoints when Fusion 360 starts.",
+    "type": "addin",
+    "name": "Midpoints",
+    "author": "Jeroen van Weeren",
+    "version": "1.0.0",
+    "description": {
+        "": "Adds a sketch point coincident with the midpoint of selected lines, arcs, and splines."
+    },
+    "editEnabled": true,
+    "iconFilename": "resources/Midpoints.svg",
+    "isNative": false,
+    "supportedOS": "windows|mac",
+    "swControlsDisabled": false
+}
