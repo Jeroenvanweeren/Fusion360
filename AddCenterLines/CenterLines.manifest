@@ -1,0 +1,17 @@
+{
+    "autodeskProduct": "Fusion360",
+    "autorun": true,
+    "autorunDescription": "Load the CenterLines plugin when Fusion 360 starts.",
+    "type": "addin",
+    "name": "CenterLines",
+    "author": "Jeroen van Weeren",
+    "version": "1.0.0",
+    "description": {
+        "": "Creates constrained radial centerlines from selected sketch curves and circles."
+    },
+    "editEnabled": true,
+    "iconFilename": "CenterLines.svg",
+    "isNative": false,
+    "supportedOS": "windows|mac",
+    "swControlsDisabled": false
+}
