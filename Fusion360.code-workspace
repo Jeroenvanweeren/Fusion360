@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "AddCenterLines"
+		},
+		{
+			"path": "FlattenCurveToPlane"
+		},
+		{
+			"path": "Midpoints"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^python3 -m py_compile AddCenterLines/AddCenterLines\\.py$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^python3 -m py_compile AddCenterLines\\.py$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^python3 -m py_compile AddCenterLines\\.py && python3 -m json\\.tool AddCenterLines\\.manifest >/dev/null$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^command -v magick \\|\\| command -v convert \\|\\| command -v rsvg-convert \\|\\| true$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^sips -s format png resources/Midpoints\\.svg --out resources/32x32\\.png >/dev/null 2>&1; printf '%s\\\\n' \\$\\?$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^sips -z 16 16 resources/32x32\\.png --out resources/16x16\\.png >/dev/null && file resources/16x16\\.png resources/32x32\\.png && python3 -m py_compile Midpoints\\.py && python3 -m json\\.tool Midpoints\\.manifest >/dev/null$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
+}
